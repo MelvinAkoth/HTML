@@ -1,16 +1,9 @@
-
-h1{
+p{
     color: dodgerblue;
+    border: 1px solid black;
 }
 
-.highlight{
-    color: deeppink;
-}
-
-#product{
-    color: green;
-}
-
-.highlight#product{
-    color: dodgerblue;
+strong{
+    color: initial;
+    border: inherit;
 }
