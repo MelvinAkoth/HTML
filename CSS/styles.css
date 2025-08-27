@@ -1,6 +1,5 @@
 .box{
    width: 200px;
    height: 200px;
-   background-color: rgb(114 141 44);
-}
+   background: radial-gradient( white, green) 
 }
