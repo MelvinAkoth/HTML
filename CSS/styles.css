@@ -1,5 +1,7 @@
 .box{
-   width: 200px;
+    width: 200px;
    height: 200px;
-   background: radial-gradient( white, green) 
+   background: dodgerblue;
+   border:10px dashed royalblue;
+   border-radius: 150px;
 }
