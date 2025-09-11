@@ -1,10 +1,20 @@
-.box{
-    width: 200px;
-   height: 200px;
-   background: dodgerblue;
-   box-shadow: 10px 10px grey;
+table {
+    border-collapse: collapse;
+    width: 100;
+    border-left: 0;
+    border-right: 0;
+    border: 1px solid #c4dcf3;
 }
-h1 {
-    color: green;
-    text-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+th, td {
+    padding: 10px;
+}
+th {
+    background-color: #427fef;
+    color: white;
+}
+tr:nth-child(odd) td {
+    background-color: #eef7ff;
+}
+tfoot{
+    text-align: right;
 }
