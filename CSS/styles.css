@@ -1,20 +1,17 @@
-table {
-    border-collapse: collapse;
-    width: 100;
-    border-left: 0;
-    border-right: 0;
-    border: 1px solid #c4dcf3;
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
 }
-th, td {
-    padding: 10px;
+body {
+    margin: 10px;
 }
-th {
-    background-color: #427fef;
-    color: white;
+.box::before {
+    content: "Hello";
 }
-tr:nth-child(odd) td {
-    background-color: #eef7ff;
-}
-tfoot{
-    text-align: right;
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    display: inline-block;
 }
