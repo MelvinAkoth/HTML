@@ -1,17 +1,6 @@
-*, 
-*::before, 
-*::after {
-    box-sizing: border-box;
-}
-body {
-    margin: 10px;
-}
-.box::before {
-    content: "Hello";
-}
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: gold;
-    display: inline-block;
+    border: 3px solid gold;
+    width: 150px;
+    height: 150px;
+    overflow: auto;
 }
